@@ -1,0 +1,314 @@
+.btn {
+    margin-right: 5px;
+}
+
+.markedAsDone {
+    text-decoration: line-through;
+    color: #777;
+}
+
+.tableActions {
+    width: 105px;
+}
+
+.todoForm {
+    padding-bottom: 60px;
+}
+
+.navbar-inverse .navbar-brand{
+  color: white !important;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+  color: white !important;
+}
+
+.navbar-inverse{
+  background-color: #0078B6 !important;
+  border-color: #0078B6 !important;
+}
+
+
+.InputLanguages{
+  width: 100%;
+  height: 35px;
+  padding: 10px 20px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+.navbar{
+  border-radius: 0 !important;
+}
+
+.logoSite{
+  max-width: 100px;
+}
+
+
+.divInputSearc div{
+  width: 100% !important;
+  max-width: 920px !important;
+}
+
+.ptBR{
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/2000px-Flag_of_Brazil.svg.png) no-repeat;
+  background-size: cover;
+  width: 40px;
+  height: 25px;
+  margin-right: 10px;
+  border: none;
+}
+
+.en{
+  background: url(https://static.todamateria.com.br/upload/ba/nd/bandeira_americana_bb.jpg) no-repeat;
+  background-size: cover;
+  width: 40px;
+  height: 25px;
+  border: none;
+}
+
+.buttonsMenu{
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.topMenu{
+  position: relative;
+}
+
+
+
+/* autosuggest */
+
+body {
+    font-family: Helvetica, sans-serif;
+  }
+  
+  .react-autosuggest__container {
+    position: relative;
+  }
+  
+  .react-autosuggest__input {
+    width: 100%;
+    height: 35px;
+    padding: 10px 20px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .react-autosuggest__input--focused {
+    outline: none;
+  }
+  
+  .react-autosuggest__input--open {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+  .react-autosuggest__suggestions-container {
+    display: none;
+  }
+  
+  .react-autosuggest__suggestions-container--open {
+    display: block;
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    z-index: 2;
+  }
+  
+  .react-autosuggest__suggestions-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .react-autosuggest__suggestion {
+    cursor: pointer;
+    padding: 10px 20px;
+  }
+  
+  .react-autosuggest__suggestion--highlighted {
+    background-color: #ddd;
+  }
+  
+.cabecalho {
+  background-color: cadetblue;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.bottom{
+  position: relative;
+}
+
+.line0 {
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+}
+
+.line1, .line2, .line3, .line4{
+  display: flex;
+  flex-direction: row;
+}
+
+.cspace{
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: space-evenly;
+}
+
+.prop{
+  width: 50%;
+}
+
+.resp{
+  width: 50%;
+}
+
+.pl20{
+  padding-left:20px;
+}
+
+.bold{
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.line{
+  padding-bottom:10px;
+}
+
+.line4{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ui.vertical.divider:after, .ui.vertical.divider:before{
+  height: calc(100% - 0rem) !important;
+}
+
+.menuList{
+  list-style: none;
+  background-color: indianred;
+  width: 200px;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.menuButton{
+  width: 200px;
+  background-color: inherit;
+  border: none;
+  align-items: center;
+  text-align: left;
+  padding-left: 20px;
+  height: 30px;
+  color: white;
+}
+
+.menuListItem{
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  height: 30px;
+}
+
+.contentBody{
+  width: 100%;
+  padding: 20px;
+  background-color: aliceblue;
+  max-height: 300px;
+}
+
+.corpoContent{
+  display: flex;
+  flex-direction: row;
+  background-color: aliceblue;
+}
+
+.menuListItem:first-child{
+  height: 45px;
+  padding-top: 15px;
+}
+
+.menuListItem:last-child{
+  height: 45px;
+  padding-bottom: 15px;
+}
+
+.dispInfo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.dispInfo .resp{
+  padding-left:20px;
+}
+
+.ui.modal{
+  max-height: 200px !important;
+  top: 30% !important;
+  left: 26% !important;
+}
+
+.btMenu{
+  background-color: indianred !important;
+  color: white !important;
+  width: 200px !important;
+  text-align: left !important;
+}
+
+.serv{
+  width: 200px;
+  height: 30px;
+}
+
+.preenche{
+  padding: 20px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.container{
+  margin-left:20%;
+  margin-right: 20%;
+}
+
+.containerMenu{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.listMenuTop{
+  display: flex;
+  flex-direction: row;
+}
+
+.listItemMenuTop{
+  margin-right:15px;
+}
